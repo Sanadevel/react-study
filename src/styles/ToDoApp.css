@@ -1,0 +1,25 @@
+.background {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  background-image: url(../img/ceres.png);
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background-cover {
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  opacity: 40%;
+  z-index: -1;
+  position: absolute;
+}
+
+.btn {
+  width: 1000px;
+}
